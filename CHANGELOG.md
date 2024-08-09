@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.1](https://github.com/archoleat/prettier-define-config/compare/v1.0.0...v1.0.1) (2024-08-09)
+
+### Code Refactoring
+
+* add compile files in root ([41a1d50](https://github.com/archoleat/prettier-define-config/commit/41a1d50a4dae224136b148bc50e4fbd68fde3e39))
+* add compile files in root ([#5](https://github.com/archoleat/prettier-define-config/issues/5)) ([aa4a7b9](https://github.com/archoleat/prettier-define-config/commit/aa4a7b92b16ffb51cbddd5c11d4d58a65903322e))
+* **index:** clean comments ([#6](https://github.com/archoleat/prettier-define-config/issues/6)) ([55bd307](https://github.com/archoleat/prettier-define-config/commit/55bd307b5896fd95ab589d156e64fa5a95d5f659))
+
 ## 1.0.0 (2024-08-09)
 
 ### Features
