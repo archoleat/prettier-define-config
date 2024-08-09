@@ -1,15 +1,15 @@
-# Bun
-bun.lockb
-
 # Directories
 .husky
 
 # Files
 *.md
+index.js
+pnpm-lock.yaml
 
 # *rc
 .czrc
 .ecrc
+.npmrc
 
 # Configs
 .editorconfig
