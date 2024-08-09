@@ -26,11 +26,17 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Set Up BunJS
-        uses: oven-sh/setup-bun@v2
+      - name: Set Up PNPM
+        uses: pnpm/action-setup@v4
+
+      - name: Set Up NodeJS
+        uses: actions/setup-node@v4
+        with:
+          cache: pnpm
+          node-version: lts/*
 
       - name: Install Dependencies
-        run: bun i
+        run: pnpm i
 
       - name: Specs
-        run: bun spec
+        run: pnpm spec

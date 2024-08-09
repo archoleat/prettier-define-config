@@ -1,6 +1,6 @@
 {
-  "name": "@archoleat/repo-template",
-  "description": "Repository template",
+  "name": "@archoleat/prettier-define-config",
+  "description": "Provide a defineConfig function for Prettier",
   "version": "1.0.0",
   "license": "MIT",
   "author": {
@@ -8,17 +8,35 @@
     "name": "Archoleat",
     "url": "https://github.com/archoleat"
   },
-  "homepage": "https://github.com/archoleat/repo-template#readme",
+  "homepage": "https://github.com/archoleat/prettier-define-config#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/archoleat/repo-template.git"
+    "url": "git+https://github.com/archoleat/prettier-define-config.git"
   },
   "bugs": {
-    "url": "https://github.com/archoleat/repo-template/issues"
+    "url": "https://github.com/archoleat/prettier-define-config/issues"
   },
   "keywords": [
-    "repo-template"
+    "archoleat-prettier-define-config",
+    "archoleat",
+    "config",
+    "configuration",
+    "define-config",
+    "plugin",
+    "prettier-config",
+    "prettier-define-config",
+    "prettier",
+    "typescript"
   ],
+  "packageManager": "pnpm@9.4.0",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "volta": {
+    "node": "20.16.0",
+    "pnpm": "9.4.0"
+  },
   "type": "module",
   "types": "index.d.ts",
   "imports": {
@@ -32,28 +50,34 @@
     "index.js"
   ],
   "scripts": {
-    "init": "bun i && husky",
-    "spec": "bun test",
-    "spec:coverage": "bun test --coverage",
+    "init": "pnpm i && husky",
+    "spec": "vitest",
+    "spec:coverage": "vitest run --coverage",
+    "build": "rollup -c rollup.config.ts --configPlugin typescript",
     "release": "semantic-release",
     "lint:editorconfig": "editorconfig-checker",
     "lint:formatting": "prettier . --check",
     "lint:md": "remark . --quiet --frail",
-    "lint:ts": "eslint src/**/*.ts --fix",
+    "lint:ts": "eslint src/index.ts --fix",
     "prettify": "prettier . --write",
     "commit": "cz"
+  },
+  "peerDependencies": {
+    "prettier": "^3.3.3"
   },
   "devDependencies": {
     "@archoleat/commitlint-define-config": "^1.0.8",
     "@archoleat/eslint-flat-compatibility": "^1.1.6",
-    "@archoleat/semantic-release-define-config": "^1.1.12",
-    "@commitlint/cli": "^19.3.0",
+    "@archoleat/semantic-release-define-config": "^1.1.13",
+    "@commitlint/cli": "^19.4.0",
     "@commitlint/config-conventional": "^19.2.2",
     "@commitlint/types": "^19.0.3",
+    "@rollup/plugin-typescript": "^11.1.6",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
+    "@vitest/coverage-v8": "^2.0.5",
     "conventional-changelog-conventionalcommits": "^8.0.0",
     "cz-conventional-changelog": "^3.3.0",
     "editorconfig-checker": "^5.1.8",
@@ -74,6 +98,11 @@
     "remark-preset-lint-consistent": "^6.0.0",
     "remark-preset-lint-markdown-style-guide": "^6.0.0",
     "remark-preset-lint-recommended": "^7.0.0",
-    "semantic-release": "^24.0.0"
+    "rollup": "^4.20.0",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-esbuild": "^6.1.1",
+    "semantic-release": "^24.0.0",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
   }
 }
