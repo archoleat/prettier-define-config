@@ -46,7 +46,7 @@ yarn add -D @archoleat/prettier-define-config
 See [Prettier Configuration](https://prettier.io/docs/en/options.html).
 
 ```js
-// prettier.config.js or prettier.config.ts
+// prettier.config.js
 import { defineConfig } from '@archoleat/prettier-define-config';
 
 export default defineConfig({
