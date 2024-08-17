@@ -3,7 +3,7 @@ import { Config } from 'prettier';
 /**
  * Define an Prettier config.
  *
- * @param {object} config Prettier config.
+ * @param {object} config Prettier.
  *
  * @returns Prettier config.
  */
