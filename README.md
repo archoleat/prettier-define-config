@@ -22,23 +22,7 @@
 ## Installation
 
 ```shell
-# bun
 bun i -D @archoleat/prettier-define-config
-```
-
-```shell
-# pnpm
-pnpm i -D @archoleat/prettier-define-config
-```
-
-```shell
-# npm
-npm i -D @archoleat/prettier-define-config
-```
-
-```shell
-# yarn
-yarn add -D @archoleat/prettier-define-config
 ```
 
 ## Usage
