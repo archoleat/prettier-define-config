@@ -11,7 +11,7 @@
   "homepage": "https://github.com/archoleat/prettier-define-config#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/archoleat/prettier-define-config.git"
+    "url": "https://github.com/archoleat/prettier-define-config.git"
   },
   "bugs": {
     "url": "https://github.com/archoleat/prettier-define-config/issues"
@@ -28,14 +28,9 @@
     "prettier",
     "typescript"
   ],
-  "packageManager": "pnpm@9.4.0",
   "engines": {
     "node": ">=20.0.0",
     "pnpm": ">=9.0.0"
-  },
-  "volta": {
-    "node": "20.16.0",
-    "pnpm": "9.4.0"
   },
   "type": "module",
   "types": "index.d.ts",
