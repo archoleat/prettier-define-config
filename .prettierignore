@@ -7,7 +7,6 @@ index.js
 pnpm-lock.yaml
 
 # *rc
-.czrc
 .ecrc
 .npmrc
 
