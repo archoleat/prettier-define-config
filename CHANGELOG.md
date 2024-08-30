@@ -1,5 +1,27 @@
 # Changelog
 
+## [1.0.2](https://github.com/archoleat/prettier-define-config/compare/v1.0.1...v1.0.2) (2024-08-30)
+
+### Bug Fixes
+
+* **eslint-config:** add `files` option ([#25](https://github.com/archoleat/prettier-define-config/issues/25)) ([b0a909a](https://github.com/archoleat/prettier-define-config/commit/b0a909af96220b9ec87c9f6c8a1580bbddb7625a))
+
+### Code Refactoring
+
+* eslint ([#24](https://github.com/archoleat/prettier-define-config/issues/24)) ([7ebf19e](https://github.com/archoleat/prettier-define-config/commit/7ebf19e102d4271e9e74a8743c033ab7f2e1a7b9))
+* move scripts to ci ([#15](https://github.com/archoleat/prettier-define-config/issues/15)) ([78c631a](https://github.com/archoleat/prettier-define-config/commit/78c631a98c38070546de4d4c5586e079d2321f46))
+* **prettierignore:** remove `.czrc` ([#21](https://github.com/archoleat/prettier-define-config/issues/21)) ([7583ffe](https://github.com/archoleat/prettier-define-config/commit/7583ffe9b59aeda3bba0cd652e2ae86b9b449281))
+* **tsconfig:** remove `composite` option ([#13](https://github.com/archoleat/prettier-define-config/issues/13)) ([c3bc770](https://github.com/archoleat/prettier-define-config/commit/c3bc77062a50479a611f3b044f764b83c367efb5))
+* **package.json:** remove extra options ([#20](https://github.com/archoleat/prettier-define-config/issues/20)) ([6a5fdc9](https://github.com/archoleat/prettier-define-config/commit/6a5fdc9ce906549b9350f9260ed34b5c726cc246))
+* remove index file ([#26](https://github.com/archoleat/prettier-define-config/issues/26)) ([ba34391](https://github.com/archoleat/prettier-define-config/commit/ba343917746cfbcfa102e3ae695d3c308b961c6d))
+* small changes ([#12](https://github.com/archoleat/prettier-define-config/issues/12)) ([901900f](https://github.com/archoleat/prettier-define-config/commit/901900fa4dce4f1366f2e533664e400f116d029b))
+
+### Documentation
+
+* **readme:** remove extra scripts ([#14](https://github.com/archoleat/prettier-define-config/issues/14)) ([ac57eec](https://github.com/archoleat/prettier-define-config/commit/ac57eecd6f424265ea313a2301c0a88933f814a5))
+* **readme:** rewrite block code ([#7](https://github.com/archoleat/prettier-define-config/issues/7)) ([e70799d](https://github.com/archoleat/prettier-define-config/commit/e70799da2b5d56bedd2dcfdaaf7e959c11244be9))
+* **readme:** rewrite install script ([#8](https://github.com/archoleat/prettier-define-config/issues/8)) ([046d2a5](https://github.com/archoleat/prettier-define-config/commit/046d2a522fd0beb8120707bf8e45e0ebaa44050e))
+
 ## [1.0.1](https://github.com/archoleat/prettier-define-config/compare/v1.0.0...v1.0.1) (2024-08-09)
 
 ### Code Refactoring
