@@ -29,13 +29,12 @@ bun i -D @archoleat/prettier-define-config
 
 See [Prettier Configuration](https://prettier.io/docs/en/options.html).
 
+Add the following code to the `prettier.config.js` file:
+
 ```js
-// prettier.config.js
 import { defineConfig } from '@archoleat/prettier-define-config';
 
-export default defineConfig({
-  // Your options
-})
+export default defineConfig({})
 ```
 
 ## Contributing
