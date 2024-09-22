@@ -1,8 +1,8 @@
 import { describe, expectTypeOf, test as spec } from 'vitest';
 
-import type { Config } from 'prettier';
-
 import { defineConfig } from '#index';
+
+import type { Config } from 'prettier';
 
 describe('Prettier Config', async () => {
   spec('should return empty config', async () => {
