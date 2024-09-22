@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.3](https://github.com/archoleat/prettier-define-config/compare/v1.0.2...v1.0.3) (2024-09-22)
+
+### Code Refactoring
+
+* **package:** add `git+` ([#31](https://github.com/archoleat/prettier-define-config/issues/31)) ([d420bb1](https://github.com/archoleat/prettier-define-config/commit/d420bb1edd59dcf9960a765c72e8779a11e49e82))
+* **prettier:** remove json override ([#32](https://github.com/archoleat/prettier-define-config/issues/32)) ([a511747](https://github.com/archoleat/prettier-define-config/commit/a51174716124bdc396cface3ed4177f77b9659f3))
+* specs ([#33](https://github.com/archoleat/prettier-define-config/issues/33)) ([03d31b9](https://github.com/archoleat/prettier-define-config/commit/03d31b90b9f81f1813eecf95749ac5898fa4aa2b))
+
+### Documentation
+
+* **readme:** update ([#29](https://github.com/archoleat/prettier-define-config/issues/29)) ([dcee63e](https://github.com/archoleat/prettier-define-config/commit/dcee63e380bfb26af39662184ab0f7cee707e91e))
+
 ## [1.0.2](https://github.com/archoleat/prettier-define-config/compare/v1.0.1...v1.0.2) (2024-08-30)
 
 ### Bug Fixes

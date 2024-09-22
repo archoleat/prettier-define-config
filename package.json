@@ -1,7 +1,7 @@
 {
   "name": "@archoleat/prettier-define-config",
   "description": "Provide a defineConfig function for Prettier",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "author": {
     "email": "archoleat@gmail.com",
