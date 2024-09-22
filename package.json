@@ -36,7 +36,7 @@
   "type": "module",
   "types": "index.d.ts",
   "imports": {
-    "#app": "./src/app.ts"
+    "#index": "./src/index.ts"
   },
   "exports": {
     ".": "./index.js"

@@ -2,63 +2,63 @@ import { describe, expectTypeOf, test as spec } from 'vitest';
 
 import type { Config } from 'prettier';
 
-import { defineConfig } from '#app';
+import { defineConfig } from '#index';
 
-describe('Prettier Config', () => {
-  spec('empty config', async () => {
+describe('Prettier Config', async () => {
+  spec('should return empty config', async () => {
     expectTypeOf(defineConfig({})).toEqualTypeOf<Config>();
   });
 
-  spec('config', async () => {
+  spec('should return config', async () => {
     expectTypeOf(
       defineConfig({
-        semi: true,
-        singleQuote: false,
-        jsxSingleQuote: false,
-        trailingComma: 'all',
-        bracketSpacing: true,
         bracketSameLine: false,
-        rangeStart: 0,
-        rangeEnd: 4,
-        parser: 'espree',
-        filepath: 'path/to/file',
-        requirePragma: false,
-        insertPragma: false,
-        proseWrap: 'always',
-        plugins: [],
-        htmlWhitespaceSensitivity: 'css',
-        endOfLine: 'lf',
-        quoteProps: 'as-needed',
-        vueIndentScriptAndStyle: false,
+        bracketSpacing: true,
         embeddedLanguageFormatting: 'auto',
-        singleAttributePerLine: false,
+        endOfLine: 'lf',
         experimentalTernaries: false,
+        filepath: 'path/to/file',
+        htmlWhitespaceSensitivity: 'css',
+        insertPragma: false,
+        jsxSingleQuote: false,
+        parser: 'espree',
+        plugins: [],
+        proseWrap: 'always',
+        quoteProps: 'as-needed',
+        rangeEnd: 4,
+        rangeStart: 0,
+        requirePragma: false,
+        semi: true,
+        singleAttributePerLine: false,
+        singleQuote: false,
+        trailingComma: 'all',
+        vueIndentScriptAndStyle: false,
         overrides: [
           {
-            files: ['path/to/file'],
             excludeFiles: ['path/to/file'],
+            files: ['path/to/file'],
             options: {
-              semi: true,
-              singleQuote: false,
-              jsxSingleQuote: false,
-              trailingComma: 'all',
-              bracketSpacing: true,
               bracketSameLine: false,
-              rangeStart: 0,
-              rangeEnd: 4,
-              parser: 'espree',
-              filepath: 'path/to/file',
-              requirePragma: false,
-              insertPragma: false,
-              proseWrap: 'always',
-              plugins: [],
-              htmlWhitespaceSensitivity: 'css',
-              endOfLine: 'lf',
-              quoteProps: 'as-needed',
-              vueIndentScriptAndStyle: false,
+              bracketSpacing: true,
               embeddedLanguageFormatting: 'auto',
-              singleAttributePerLine: false,
+              endOfLine: 'lf',
               experimentalTernaries: false,
+              filepath: 'path/to/file',
+              htmlWhitespaceSensitivity: 'css',
+              insertPragma: false,
+              jsxSingleQuote: false,
+              parser: 'espree',
+              plugins: [],
+              proseWrap: 'always',
+              quoteProps: 'as-needed',
+              rangeEnd: 4,
+              rangeStart: 0,
+              requirePragma: false,
+              semi: true,
+              singleAttributePerLine: false,
+              singleQuote: false,
+              trailingComma: 'all',
+              vueIndentScriptAndStyle: false,
             },
           },
         ],
