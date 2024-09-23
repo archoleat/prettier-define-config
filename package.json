@@ -46,8 +46,7 @@
     "index.js"
   ],
   "scripts": {
-    "init": "pnpm i && husky",
-    "build": "rollup -c rollup.config.ts --configPlugin typescript"
+    "init": "pnpm i && husky"
   },
   "peerDependencies": {
     "prettier": "^3.3.3"
