@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.1.0](https://github.com/archoleat/prettier-define-config/compare/v1.0.3...v1.1.0) (2024-09-28)
+
+### Features
+
+* add `funding.yaml` ([#35](https://github.com/archoleat/prettier-define-config/issues/35)) ([604da0a](https://github.com/archoleat/prettier-define-config/commit/604da0a72bcb8216f410085f381f6a4cb9a2e098))
+
+### Code Refactoring
+
+* move build script to `release.yaml` ([#37](https://github.com/archoleat/prettier-define-config/issues/37)) ([75af72b](https://github.com/archoleat/prettier-define-config/commit/75af72b299506d2870176b480474f7595052b822))
+* specs and comment ([#38](https://github.com/archoleat/prettier-define-config/issues/38)) ([6eb1080](https://github.com/archoleat/prettier-define-config/commit/6eb1080185ddaf1f9dc185459be241043b811896))
+
 ## [1.0.3](https://github.com/archoleat/prettier-define-config/compare/v1.0.2...v1.0.3) (2024-09-22)
 
 ### Code Refactoring
