@@ -5,7 +5,7 @@ import type { Config } from 'prettier';
  *
  * @param {object} config Prettier.
  *
- * @returns Prettier config.
+ * @return Prettier config.
  */
 const defineConfig = (config: Config): Config => config;
 

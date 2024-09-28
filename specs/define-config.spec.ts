@@ -36,7 +36,7 @@ describe('Prettier Config', async () => {
   spec('should return config', async () => {
     expectTypeOf(
       defineConfig({
-        ...options,
+        options,
         overrides: [
           {
             excludeFiles: ['path/to/file'],
