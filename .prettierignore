@@ -1,7 +1,6 @@
 # Files
 *.md
 index.js
-pnpm-lock.yaml
 
 # *rc
 .ecrc
