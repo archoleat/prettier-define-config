@@ -28,15 +28,13 @@
     "prettier",
     "typescript"
   ],
-  "packageManager": "pnpm@9.7.0",
   "engines": {
-    "node": ">=20.0.0",
-    "pnpm": ">=9.0.0"
+    "bun": ">=1.0.0"
   },
   "type": "module",
   "types": "index.d.ts",
   "imports": {
-    "#index": "./src/index.ts"
+    "#src/*": "./src/*"
   },
   "exports": {
     ".": "./index.js"
@@ -46,7 +44,7 @@
     "index.js"
   ],
   "scripts": {
-    "init": "pnpm i && husky"
+    "init": "bun i && husky"
   },
   "peerDependencies": {
     "prettier": "^3.3.3"
@@ -62,6 +60,7 @@
     "@rollup/plugin-typescript": "^12.1.1",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
+    "@types/bun": "^1.1.14",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
     "@vitest/coverage-v8": "^2.1.6",
@@ -89,8 +88,6 @@
     "rollup": "^4.28.0",
     "rollup-plugin-dts": "^6.1.1",
     "rollup-plugin-esbuild": "^6.1.1",
-    "semantic-release": "^24.2.0",
-    "typescript": "^5.7.2",
-    "vitest": "^2.1.6"
+    "semantic-release": "^24.2.0"
   }
 }

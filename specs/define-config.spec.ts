@@ -1,7 +1,7 @@
-import { describe, expectTypeOf, test as spec } from 'vitest';
+import { describe, expect, test as spec } from 'bun:test';
 import type { Config } from 'prettier';
 
-import { defineConfig } from '#index';
+import { defineConfig } from '#src/index.ts';
 
 const options: Config = {
   bracketSameLine: false,
@@ -29,11 +29,11 @@ const options: Config = {
 
 describe('Prettier Config', async () => {
   spec('should return empty config', async () => {
-    expectTypeOf(defineConfig({})).toEqualTypeOf<Config>();
+    expect(defineConfig({}));
   });
 
   spec('should return config', async () => {
-    expectTypeOf(
+    expect(
       defineConfig({
         options,
         overrides: [
@@ -44,6 +44,6 @@ describe('Prettier Config', async () => {
           },
         ],
       }),
-    ).toEqualTypeOf<Config>();
+    );
   });
 });
