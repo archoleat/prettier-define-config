@@ -1,9 +1,7 @@
 # Files
+.editorconfig-checker.json
 *.md
 index.js
-
-# *rc
-.ecrc
 
 # Ignores
 .gitignore
