@@ -27,23 +27,37 @@ const options: Config = {
   vueIndentScriptAndStyle: false,
 };
 
-describe('Prettier Config', async () => {
-  spec('should return empty config', async () => {
-    expect(defineConfig({}));
+describe('Prettier Config', () => {
+  spec('should return empty config', () => {
+    const config = defineConfig({});
+
+    expect(config).toMatchObject({});
+    expect(config satisfies Config).toBeDefined();
   });
 
-  spec('should return config', async () => {
-    expect(
-      defineConfig({
-        options,
-        overrides: [
-          {
-            excludeFiles: ['path/to/file'],
-            files: ['path/to/file'],
-            options,
-          },
-        ],
-      }),
-    );
+  spec('should return config with all properties', () => {
+    const config = defineConfig({
+      options,
+      overrides: [
+        {
+          excludeFiles: ['path/to/file'],
+          files: ['path/to/file'],
+          options,
+        },
+      ],
+    });
+
+    expect(config).toMatchObject({
+      options,
+      overrides: [
+        {
+          excludeFiles: ['path/to/file'],
+          files: ['path/to/file'],
+          options,
+        },
+      ],
+    });
+
+    expect(config satisfies Config).toBeDefined();
   });
 });
