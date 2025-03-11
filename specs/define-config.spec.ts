@@ -26,27 +26,26 @@ const options: Config = {
   trailingComma: 'all',
   vueIndentScriptAndStyle: false,
 };
+const config = defineConfig({
+  options,
+  overrides: [
+    {
+      excludeFiles: ['path/to/file'],
+      files: ['path/to/file'],
+      options,
+    },
+  ],
+});
 
 describe('Prettier Config', () => {
   spec('should return empty config', () => {
-    const config = defineConfig({});
+    const emptyConfig = defineConfig({});
 
-    expect(config).toMatchObject({});
-    expect(config satisfies Config).toBeDefined();
+    expect(emptyConfig).toMatchObject({});
+    expect(emptyConfig satisfies Config).toBeDefined();
   });
 
   spec('should return config with all properties', () => {
-    const config = defineConfig({
-      options,
-      overrides: [
-        {
-          excludeFiles: ['path/to/file'],
-          files: ['path/to/file'],
-          options,
-        },
-      ],
-    });
-
     expect(config).toMatchObject({
       options,
       overrides: [
