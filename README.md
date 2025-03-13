@@ -16,6 +16,8 @@
 - [Contributing](#contributing)
 - [License](#license)
 
+Provide a defineConfig function for Prettier.
+
 ## Installation
 
 ```shell
