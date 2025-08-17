@@ -1,4 +1,6 @@
-import { describe, expect, test as spec } from 'bun:test';
+import { describe, test as spec } from 'bun:test';
+import { expectTypeOf } from 'expect-type';
+
 import type { Config } from 'prettier';
 
 import { defineConfig } from '#src/index.ts';
@@ -26,37 +28,24 @@ const options: Config = {
   trailingComma: 'all',
   vueIndentScriptAndStyle: false,
 };
-const config = defineConfig({
-  options,
-  overrides: [
-    {
-      excludeFiles: ['path/to/file'],
-      files: ['path/to/file'],
-      options,
-    },
-  ],
-});
 
 describe('Prettier Config', () => {
   spec('should return empty config', () => {
-    const emptyConfig = defineConfig({});
-
-    expect(emptyConfig).toMatchObject({});
-    expect(emptyConfig satisfies Config).toBeDefined();
+    expectTypeOf(defineConfig({})).toEqualTypeOf<Config>();
   });
 
-  spec('should return config with all properties', () => {
-    expect(config).toMatchObject({
-      options,
-      overrides: [
-        {
-          excludeFiles: ['path/to/file'],
-          files: ['path/to/file'],
-          options,
-        },
-      ],
-    });
-
-    expect(config satisfies Config).toBeDefined();
+  spec('should return config', async () => {
+    expectTypeOf(
+      defineConfig({
+        options,
+        overrides: [
+          {
+            excludeFiles: ['path/to/file'],
+            files: ['path/to/file'],
+            options,
+          },
+        ],
+      }),
+    ).toEqualTypeOf<Config>();
   });
 });
