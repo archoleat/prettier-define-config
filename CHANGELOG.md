@@ -1,5 +1,47 @@
 # Changelog
 
+## [1.2.0](https://github.com/archoleat/prettier-define-config/compare/v1.1.0...v1.2.0) (2025-08-17)
+
+### ⚠ BREAKING CHANGES
+
+* migrate to bun (#60)
+
+### Features
+
+* add behavior bot ([#53](https://github.com/archoleat/prettier-define-config/issues/53)) ([2f1890b](https://github.com/archoleat/prettier-define-config/commit/2f1890bea67614c03b508784ba1e6b7546457fe1))
+
+### Bug Fixes
+
+* pre-commit action ([#45](https://github.com/archoleat/prettier-define-config/issues/45)) ([3e5166f](https://github.com/archoleat/prettier-define-config/commit/3e5166f489400f9caf90f7bb839b00d38ee295aa))
+* tsconfig.json ([#59](https://github.com/archoleat/prettier-define-config/issues/59)) ([fee226e](https://github.com/archoleat/prettier-define-config/commit/fee226e8db69601b3bc32de32548309b60dd0c5f))
+* tslib ([#112](https://github.com/archoleat/prettier-define-config/issues/112)) ([688268c](https://github.com/archoleat/prettier-define-config/commit/688268cf5095cd4b8dd33f5914cab5b03ed19977))
+
+### Code Refactoring
+
+* .editorconfig-checker.json ([96e7b79](https://github.com/archoleat/prettier-define-config/commit/96e7b798ea9b3827bb206814aaa72fdb083ee25e))
+* actions ([#110](https://github.com/archoleat/prettier-define-config/issues/110)) ([d4dc218](https://github.com/archoleat/prettier-define-config/commit/d4dc21849228d5384f4ef04605006e87c072426e))
+* define-config.spec.ts ([#80](https://github.com/archoleat/prettier-define-config/issues/80)) ([93f5ac5](https://github.com/archoleat/prettier-define-config/commit/93f5ac5330c15ee4a8f4c0f54051992e7d568ff5))
+* dependabot ([#104](https://github.com/archoleat/prettier-define-config/issues/104)) ([13c73d0](https://github.com/archoleat/prettier-define-config/commit/13c73d0bece19b1b6e81ce0c174e6e530788d105))
+* ecrc ([a050e97](https://github.com/archoleat/prettier-define-config/commit/a050e97d58fd5d92ddf8205509b5a82f0319d99d))
+* ecrc ([136cada](https://github.com/archoleat/prettier-define-config/commit/136cadaff4f17bd4f401915847646bff768b3c5f))
+* ignore ([941fcff](https://github.com/archoleat/prettier-define-config/commit/941fcff47669f655c6dd0e65a6e16a64eab0310e))
+* migrate to bun ([#60](https://github.com/archoleat/prettier-define-config/issues/60)) ([19f9e19](https://github.com/archoleat/prettier-define-config/commit/19f9e197494c1fb442b945faf6e832ca12428148))
+* prettierignore ([c5f2e7a](https://github.com/archoleat/prettier-define-config/commit/c5f2e7a016cac2cb8241b32415859ee332daa307))
+* remove codeql advanced ([#54](https://github.com/archoleat/prettier-define-config/issues/54)) ([983007e](https://github.com/archoleat/prettier-define-config/commit/983007ede02bf730417c1a5c1cc34127f3bdd9d2))
+* remove comments ([3aa811c](https://github.com/archoleat/prettier-define-config/commit/3aa811c4d984773cb0d39eaa2c7d75e98356d894))
+* small changes ([#46](https://github.com/archoleat/prettier-define-config/issues/46)) ([a18f97d](https://github.com/archoleat/prettier-define-config/commit/a18f97d8c75f88a88ba39fff93d45b489b185ca6))
+* small changes ([#51](https://github.com/archoleat/prettier-define-config/issues/51)) ([9ffc0d9](https://github.com/archoleat/prettier-define-config/commit/9ffc0d9cf6d08cd0078019e457e78cc66598179d))
+* small changes ([#52](https://github.com/archoleat/prettier-define-config/issues/52)) ([55a8f78](https://github.com/archoleat/prettier-define-config/commit/55a8f78d3aa6eb7353eed3842711bddc00ba2a1c))
+* small changes ([#56](https://github.com/archoleat/prettier-define-config/issues/56)) ([12ed2c7](https://github.com/archoleat/prettier-define-config/commit/12ed2c7cb56a981e9e34bb86eb1434282ef5c1f8))
+* small changes ([#58](https://github.com/archoleat/prettier-define-config/issues/58)) ([8758ba4](https://github.com/archoleat/prettier-define-config/commit/8758ba43ec3437f47facdd35d79b9109976029f6))
+* spec ([#111](https://github.com/archoleat/prettier-define-config/issues/111)) ([42219e5](https://github.com/archoleat/prettier-define-config/commit/42219e53a9e1a51857b6e8f0aaae97c0c9c0c4a5))
+* tsconfig ([0ffe119](https://github.com/archoleat/prettier-define-config/commit/0ffe119c09b37739c0dc6a06a4601f7162ae091d))
+
+### Documentation
+
+* **readme:** remove extra badges ([#55](https://github.com/archoleat/prettier-define-config/issues/55)) ([ad310b5](https://github.com/archoleat/prettier-define-config/commit/ad310b5479f89a702b1d065ebd25eb186a9ea976))
+* **readme:** rewrite ([b72d48a](https://github.com/archoleat/prettier-define-config/commit/b72d48aafcdef76bc4c5082ab999ab1716ac0016))
+
 ## [1.1.0](https://github.com/archoleat/prettier-define-config/compare/v1.0.3...v1.1.0) (2024-09-28)
 
 ### Features
