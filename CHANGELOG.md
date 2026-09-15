@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.3](https://github.com/archoleat/prettier-define-config/compare/v1.2.2...v1.2.3) (2026-09-15)
+
+### Bug Fixes
+
+* **ci:** declare TypeScript and use client-id ([c3a03d9](https://github.com/archoleat/prettier-define-config/commit/c3a03d9e49228a876f5a30438103bedcd33a5276))
+* **release:** use compatible changelog preset ([ae8ddd4](https://github.com/archoleat/prettier-define-config/commit/ae8ddd402a11b55e8e31269ace35c4e79c3c45d4))
+
 ## [1.2.2](https://github.com/archoleat/prettier-define-config/compare/v1.2.1...v1.2.2) (2026-07-01)
 
 ### Bug Fixes
