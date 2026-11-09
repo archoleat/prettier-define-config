@@ -1,7 +1,7 @@
 {
   "name": "@archoleat/prettier-define-config",
   "description": "Typed defineConfig helper for Prettier configuration and editor completion.",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "license": "MIT",
   "author": {
     "email": "nikkeyl.me@gmail.com",

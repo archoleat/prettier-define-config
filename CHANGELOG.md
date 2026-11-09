@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.2.6](https://github.com/archoleat/prettier-define-config/compare/v1.2.5...v1.2.6) (2026-11-09)
+
+### Bug Fixes
+
+* align package description with repository metadata ([f1cd6d2](https://github.com/archoleat/prettier-define-config/commit/f1cd6d2c88203b22133feb6eb8822e94757839b2))
+
 ## [1.2.5](https://github.com/archoleat/prettier-define-config/compare/v1.2.4...v1.2.5) (2026-11-09)
 
 ### Bug Fixes
