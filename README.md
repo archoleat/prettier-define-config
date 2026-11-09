@@ -17,7 +17,11 @@
 - [Contributing](#contributing)
 - [License](#license)
 
-Provide a defineConfig function for Prettier.
+Use `defineConfig` for completion and option checking in an ESM Prettier
+configuration. It returns the object unchanged; native JSDoc typing with
+`import('prettier').Config` or TypeScript `satisfies Config` provides the same
+checks without this helper. The declared peer range is Prettier `^3.3.3`;
+this package does not validate configuration at runtime.
 
 ## Installation
 
@@ -34,7 +38,7 @@ Add the following code to the `prettier.config.js` file:
 ```js
 import { defineConfig } from '@archoleat/prettier-define-config';
 
-export default defineConfig({})
+export default defineConfig({});
 ```
 
 ## Contributing
