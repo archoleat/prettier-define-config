@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.2.4](https://github.com/archoleat/prettier-define-config/compare/v1.2.3...v1.2.4) (2026-11-09)
+
+### Bug Fixes
+
+* publish current documentation and runtime guidance ([659de75](https://github.com/archoleat/prettier-define-config/commit/659de75b00acca0cf82311bca63a8cf23e55dbb9))
+
+### Documentation
+
+* clarify usage and project constraints ([dcaf5a0](https://github.com/archoleat/prettier-define-config/commit/dcaf5a01a99120137712abd0d53748d41384befe))
+
 ## [1.2.3](https://github.com/archoleat/prettier-define-config/compare/v1.2.2...v1.2.3) (2026-09-15)
 
 ### Bug Fixes
