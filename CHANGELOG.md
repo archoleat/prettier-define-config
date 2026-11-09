@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.2.5](https://github.com/archoleat/prettier-define-config/compare/v1.2.4...v1.2.5) (2026-11-09)
+
+### Bug Fixes
+
+* align npm keywords with repository topics ([c2a722b](https://github.com/archoleat/prettier-define-config/commit/c2a722b5d6552873b44025dfdb776e1bfdb9f4f8))
+
 ## [1.2.4](https://github.com/archoleat/prettier-define-config/compare/v1.2.3...v1.2.4) (2026-11-09)
 
 ### Bug Fixes
